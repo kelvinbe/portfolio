@@ -12,8 +12,6 @@ import {Skills, Experience, Education} from './info';
 export default function AboutMe() {
   const [value, setValue] = React.useState(0);
 
-
-
   function TabPanel(props) {
 
     const { children, value, index, ...other } = props;
@@ -47,16 +45,11 @@ export default function AboutMe() {
     setValue(newValue);
   };
 
-
-
-
-
-
   return (
     <Grid  xs={12} lg={12} container className='container'>
 
       <Grid item xs={12} xl={12} className="title">
-        <p className="title">About</p>
+        <p className="title">What i do</p>
     </Grid>
    
       <Grid item xs={9} md={8} lg={6} className='imgContainer'>

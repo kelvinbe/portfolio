@@ -1,0 +1,47 @@
+.container{
+    background-color: rgb(235 230 230);
+    padding: 40px 0;
+    /* overflow-x: hidden; */
+    position: relative;
+    height: 100%;
+    max-height: 221vh;
+    display: flex;
+}
+.title{
+    font-family: Courier;
+
+}
+.cardIcons{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.stackDisplay {display: flex;
+align-items: flex-end;
+-webkit-box-flex: 1;
+flex-grow: 1;
+flex-wrap: wrap;
+padding: 0px;
+margin: 20px 0px 0px;
+list-style: none;
+}
+
+.stackDisplay li:not(:last-of-type) {
+    margin-right: 15px;
+}
+
+
+.tiltStyles{
+    box-shadow: rgb(20 26 40 / 20%) 0px 7px 42px;
+    will-change: transform;
+    transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);
+    width: 300px !important;
+    padding: 0 !important;
+    margin: 10px;
+    background: rgb(255, 255, 255);
+    border-radius: 4px;
+    color: rgb(54, 73, 98);
+    font-size: 16px;
+    line-height: 1.6;
+}

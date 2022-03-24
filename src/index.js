@@ -9,12 +9,15 @@ import {
   Route,
 } from "react-router-dom";
 import AboutMe from './components/About/AboutMe'
+import Portfolio from './components/Portfolio/Portfolio'
 
 ReactDOM.render(
   <BrowserRouter>
   <Routes>
     <Route  path="/" element={<App />} />
     <Route  path="aboutme" element={<AboutMe />} />
+    <Route  path="portfolio" element={<Portfolio />} />
+
 
   
     </Routes>

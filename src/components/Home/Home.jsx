@@ -12,8 +12,6 @@ export default function Home() {
   return (
     <Grid>
 
-
-      
     <Grid item xs={12} xl={12} className="container">
       <Grid item xs={12} xl={12} className="typewriter">
         <p className="title">
@@ -37,14 +35,16 @@ export default function Home() {
         </div>
       </Grid>
       <Grid item xs={12} xl={12}>
-      <Link to="aboutme" className="link">
+      <Link to="aboutme">
         <p className="title">ABOUT ME</p>
       </Link>
       </Grid>
      
     </Grid>
     <Grid item xs={12} xl={12} className="aboutText">
+      <Link to="portfolio" >
         <p className="title">PORTFOLIO</p>
+        </Link>
     </Grid>
     
     </Grid>
