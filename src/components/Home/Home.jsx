@@ -1,9 +1,11 @@
 import React from "react";
-import tail from "../assets/tail.svg";
-import head from "../assets/head.svg";
+import tail from "../../assets/tail.svg";
+import head from "../../assets/head.svg";
 import "./styles/Home.css";
 import Typewriter from "typewriter-effect";
 import Grid from '@mui/material/Grid';
+import { Link } from "react-router-dom";
+
 
 
 export default function Home() {
@@ -35,9 +37,9 @@ export default function Home() {
         </div>
       </Grid>
       <Grid item xs={12} xl={12}>
-      <div>
+      <Link to="aboutme" className="link">
         <p className="title">ABOUT ME</p>
-      </div>
+      </Link>
       </Grid>
      
     </Grid>
