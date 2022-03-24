@@ -1,0 +1,51 @@
+.container {
+    background-color: rgb(235 230 230);
+    padding: 20px 0;
+    /* overflow-x: hidden; */
+    position: relative;
+    height: 100%;
+    max-height: 221vh;
+    display: flex;
+    justify-content: space-around;
+  
+}
+
+
+
+.title:hover .tie{
+    font-family: Courier;
+    transition: width 2s, height 2s, transform 2s;
+    transform: rotate(360deg);
+
+}
+
+.tie{
+    width: 90px;
+
+}
+
+
+.title{
+    font-family: Courier;
+
+}
+
+.typewriter{
+    width: 90px;
+}
+
+.aboutText{
+
+        /* top: 100%; */
+        max-width: 100%;
+        max-height: 100%;
+        position: absolute;
+        max-width: 100%;
+        /* z-index: 0; */
+        max-height: 100%;
+        /* object-fit: cover; */
+        top: 423px;
+        display: initial;
+        margin-left: -35px !important;
+      
+}
