@@ -1,19 +1,18 @@
 import React from "react";
-import tail from "../assets/tail.svg";
-import head from "../assets/head.svg";
+import tail from "../../assets/tail.svg";
+import head from "../../assets/head.svg";
 import "./styles/Home.css";
 import Typewriter from "typewriter-effect";
 import Grid from '@mui/material/Grid';
+import { Link } from "react-router-dom";
+
 
 
 export default function Home() {
   return (
-    <Grid>
 
-
-      
-    <Grid item xs={12} xl={12} className="container">
-      <Grid item xs={12} xl={12} className="typewriter">
+    <Grid container className="containerHome">
+      <Grid item xs={4} xl={12}>
         <p className="title">
           <Typewriter
             options={{
@@ -26,7 +25,7 @@ export default function Home() {
         </p>
       </Grid>
 
-      <Grid item xs={12} xl={12} >
+      <Grid item xs={4} xl={12} >
         <div>
           <img src={head} alt="" className="tie" />
         </div>
@@ -34,17 +33,19 @@ export default function Home() {
           <img src={tail} alt="" className="tie" />
         </div>
       </Grid>
-      <Grid item xs={12} xl={12}>
-      <div>
+      <Grid item xs={3} xl={12}>
+      <Link to="aboutme">
         <p className="title">ABOUT ME</p>
-      </div>
+      </Link>
       </Grid>
+      <Grid item xs={12} xl={12} className='portfo'>
+      <Link to="portfolio" >
+        <p className="title">PORTFOLIO</p>
+        </Link>
+    </Grid>
      
     </Grid>
-    <Grid item xs={12} xl={12} className="aboutText">
-        <p className="title">PORTFOLIO</p>
-    </Grid>
     
-    </Grid>
+    
   );
 }
