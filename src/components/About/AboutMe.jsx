@@ -48,19 +48,19 @@ export default function AboutMe() {
   return (
     <Grid  xs={12} lg={12} container className='containerAbout'>
 
-      <Grid item xs={12} xl={12} className="title">
-        <p className="title">What i do</p>
+      <Grid item xs={12} xl={12} className="titleAbout">
+        <p className="titleAbout">What i do</p>
     </Grid>
    
       <Grid item xs={9} md={8} lg={6} className='imgContainer'>
         <img className='img' src={code} alt="" />
       </Grid>
       <Grid item xs={8} md={8} lg={6}>
-      <Grid item xs={12} xl={12} className="title">
-        <p className="title">About Me</p>
+      <Grid item xs={12} xl={12} className="titleAbout">
+        <p className="titleAbout">About Me</p>
     </Grid>
       <Grid>
-      <p className="title">I am a software developer. Love building and learning new things</p>
+      <p className="titleAbout">I am a software developer. Love building and learning new things</p>
     </Grid>
        <Box sx={{ width: '100%' }}>
       <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>

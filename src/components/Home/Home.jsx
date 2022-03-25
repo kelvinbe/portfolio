@@ -29,7 +29,7 @@ export default function Home() {
         <div>
           <img src={head} alt="" className="tie" />
         </div>
-        <div>
+        <div className="rotating">
           <img src={tail} alt="" className="tie" />
         </div>
       </Grid>

@@ -11,7 +11,7 @@ import IosShareOutlinedIcon from '@mui/icons-material/IosShareOutlined';
 import './Portfolio.css'
 import Tilt from 'react-vanilla-tilt'
 import { Link } from "react-router-dom";
-
+import GitHubIcon from '@mui/icons-material/GitHub';
 
 export default function Portfolio() {
 
@@ -23,7 +23,7 @@ export default function Portfolio() {
       
   return (
     <div className='portfolioArea'>
-        <Grid> <p className='title'>Projects</p></Grid>
+        <Grid> <p className='titlePort'>Projects</p></Grid>
 
       <Grid  container className='containerProjects'>
      
@@ -38,8 +38,12 @@ export default function Portfolio() {
          <Card sx={{ minWidth: 275 }}>
       <CardContent className='cardIcons'>
 
-       <FolderOutlinedIcon />
-        <IosShareOutlinedIcon />
+       <FolderOutlinedIcon className='iconColor' />
+       <div>
+        <GitHubIcon className='iconColor' />
+
+        <IosShareOutlinedIcon className='iconColor' />
+        </div>
       </CardContent>
       <CardContent>
 

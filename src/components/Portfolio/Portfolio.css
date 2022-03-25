@@ -24,9 +24,9 @@
 .cardDisplay{
     /* display: flex; */
 }
-.title{
+.titlePort{
     font-family: Courier;
-
+    text-align: center;
 }
 
 .cardIcons{
@@ -75,4 +75,14 @@ list-style: none;
     .cardDisplay {
 
       }
+  }
+
+
+  .iconColor{
+    color: black;
+  }
+
+  .iconColor:hover{
+      color:  cyan;
+      cursor: pointer;
   }
