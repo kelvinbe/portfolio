@@ -3,10 +3,11 @@
 
 .portfolioArea{
     background-color: rgb(214, 208, 208);
-    position:fixed;
+    /* position:fixed; */
     padding:0;
     margin:0;
-    overflow-y: visible;
+    
+
 
     top:0;
     left:0;
@@ -20,6 +21,8 @@
     display: flex !important;
     flex-direction: row !important;
     justify-content: center;
+    overflow-y: visible;
+    overflow-x: visible;
 }
 
 .cardDisplay{
@@ -28,6 +31,7 @@
 .titlePort{
     font-family: Courier;
     text-align: center;
+    margin: 0;
 }
 
 .cardIcons{
