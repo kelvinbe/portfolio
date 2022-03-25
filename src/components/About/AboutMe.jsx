@@ -46,7 +46,7 @@ export default function AboutMe() {
   };
 
   return (
-    <Grid  xs={12} lg={12} container className='container'>
+    <Grid  xs={12} lg={12} container className='containerAbout'>
 
       <Grid item xs={12} xl={12} className="title">
         <p className="title">What i do</p>

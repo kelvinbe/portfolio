@@ -1,12 +1,14 @@
-.container {
+.containerHome {
     background-color: rgb(235 230 230);
-    padding: 20px 0;
-    /* overflow-x: hidden; */
-    position: relative;
+    position:fixed;
+    padding-top: 20px !important;
+    margin:0;
+
+    top:0;
+    left:0;
+
+    width: 100%;
     height: 100%;
-    max-height: 221vh;
-    display: flex;
-    justify-content: space-around;
   
 }
 
@@ -49,3 +51,35 @@
         margin-left: -35px !important;
       
 }
+
+
+.portfo{
+    position: absolute;
+    left: 56px;
+    top: 443px;
+    bottom: 0px;
+    width: 300px;
+    height: 200px;
+}
+
+@media only screen and (min-width:900px) {
+    .portfo {
+        position: unset;
+    left: 56px;
+    top: 443px;
+    bottom: 0px;
+    width: 300px;
+    height: 200px;
+    }
+  }
+
+  @media only screen and (min-width:600px) {
+    .portfo {
+        position: unset;
+    left: 56px;
+    top: 443px;
+    bottom: 0px;
+    width: 300px;
+    height: 200px;
+    }
+  }

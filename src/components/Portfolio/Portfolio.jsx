@@ -10,16 +10,31 @@ import FolderOutlinedIcon from '@mui/icons-material/FolderOutlined';
 import IosShareOutlinedIcon from '@mui/icons-material/IosShareOutlined';
 import './Portfolio.css'
 import Tilt from 'react-vanilla-tilt'
+import { Link } from "react-router-dom";
 
 
 export default function Portfolio() {
 
 
+  const projects = [{ proj: { name: 'Modified Twitter Web App', stack: `React JS ${'  '} Firebase ${' '} MaterialUI HTML5 ${' '} CSS3 ${' '} Javascript`, link: 'https://twitter-api-d8f20.web.app/'} }, { proj: { name: 'Portfolio Site', stack: 'React JS Firebase HTML5 CSS3', link: ''} }, { proj: { name: 'New Proj', stack: 'React JS Firebase HTML5 CSS3', link: ''} }]
+
+
+ 
       
   return (
-      <Grid xs={12} xl={12} lg={12} md={12} className='container'>
-          <Grid item xs={12} md={6} lg={6}>
-          <Tilt className='tiltStyles'>
+    <div className='portfolioArea'>
+        <Grid> <p className='title'>Projects</p></Grid>
+
+      <Grid  container className='containerProjects'>
+     
+
+       <Grid item className='cardDisplay'>
+        { projects.map(project => {
+
+
+      return (
+      
+      <Tilt className='tiltStyles'>
          <Card sx={{ minWidth: 275 }}>
       <CardContent className='cardIcons'>
 
@@ -29,9 +44,8 @@ export default function Portfolio() {
       <CardContent>
 
         <Typography sx={{ mb: 1.5 }} color="text.secondary">
-          A web app that utilizes the gaming api to display data on various games that are coming out
-          A web app that utilizes the gaming api to display data on various games that are coming out
-
+          {project.proj.name}
+          
         </Typography>
         <Typography variant="body2">
           well meaning and kindly.
@@ -46,10 +60,19 @@ export default function Portfolio() {
           </ul>
         </Typography>
       </CardContent>
+      <CardActions>
+        <Button size="small" href={project.proj.link}target="_blank">Learn More</Button>
+      </CardActions>
     </Card>
-    </Tilt>
+    </Tilt>  )}) }
     </Grid>
 
+
       </Grid>
+    </div>
+
+
+
+
   )
 }

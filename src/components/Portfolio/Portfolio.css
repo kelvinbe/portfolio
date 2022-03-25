@@ -1,16 +1,34 @@
-.container{
-    background-color: rgb(235 230 230);
-    padding: 40px 0;
-    /* overflow-x: hidden; */
-    position: relative;
+
+
+
+.portfolioArea{
+    background-color: rgb(214, 208, 208);
+    position:fixed;
+    padding:0;
+    margin:0;
+
+    top:0;
+    left:0;
+
+    width: 100%;
     height: 100%;
-    max-height: 221vh;
-    display: flex;
+    /* background:rgba(255,255,255,0.5); */
+}
+
+.containerProjects{
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center;
+}
+
+.cardDisplay{
+    /* display: flex; */
 }
 .title{
     font-family: Courier;
 
 }
+
 .cardIcons{
     display: flex;
     justify-content: space-between;
@@ -45,3 +63,16 @@ list-style: none;
     font-size: 16px;
     line-height: 1.6;
 }
+
+
+@media only screen and (min-width: 768px) {
+    .cardDisplay {
+      display: flex;
+    }
+  }
+
+  @media only screen and (min-width: 820px) {
+    .cardDisplay {
+
+      }
+  }
