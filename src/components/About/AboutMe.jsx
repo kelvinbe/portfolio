@@ -85,7 +85,7 @@ export default function AboutMe() {
       </TabPanel>
     </Box>
     </Grid>
-    <Grid>
+    <Grid item xs={6} md={8} lg={6}>
       <p className="titleAbout" style={{paddingTop: 25}}>
         Get in touch
       </p>
