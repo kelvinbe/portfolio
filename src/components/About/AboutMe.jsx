@@ -55,7 +55,7 @@ export default function AboutMe() {
       <Grid item xs={9} md={8} lg={6} className='imgContainer'>
         <img className='img' src={code} alt="" />
       </Grid>
-      <Grid item xs={8} md={8} lg={6}>
+      <Grid item xs={12} md={8} lg={6}>
       <Grid item xs={12} xl={12} className="titleAbout">
         <p className="titleAbout">About Me</p>
     </Grid>
