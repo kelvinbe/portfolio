@@ -79,9 +79,9 @@ export default function Portfolio() {
                   <CardContent className="cardIcons">
                     <FolderOutlinedIcon className="iconColor" />
                     <div>
-            {/* <IconButton href={project.proj.gitLink} target="_blank"> */}
+            <IconButton href={project.proj.gitLink} target="_blank" style={{marginTop: -13}}>
             <GitHubIcon className="iconColor" />
-              {/* </IconButton>      */}
+              </IconButton>     
 
                       <IosShareOutlinedIcon className="iconColor" />
                     </div>
