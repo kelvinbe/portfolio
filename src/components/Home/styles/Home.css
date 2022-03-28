@@ -126,6 +126,13 @@
   }
 
 
+  .typewriterstyle{
+    font-family: Courier;
+    display: inline-block;
+    position: relative;
+    color: #000000;
+
+  }
 
 
 .title{

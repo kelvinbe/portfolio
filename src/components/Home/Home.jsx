@@ -13,7 +13,7 @@ export default function Home() {
 
     <Grid container className="containerHome">
       <Grid item xs={4} xl={12}>
-        <p className="title">
+        <p className="typewriterStyle">
           <Typewriter
             options={{
               strings: ["Hello", "Welcome", "My Name is Kelvin", " A React", "React Native", "Developer"],

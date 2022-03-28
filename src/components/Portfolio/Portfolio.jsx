@@ -44,14 +44,14 @@ export default function Portfolio() {
   ];
 
   return (
-    <div className="portfolioArea">
-      <Grid>
+     
+
+      <Grid container className="containerProjects">
+      <Grid item xs={4}>
         {" "}
         <p className="titlePort">Projects</p>
       </Grid>
-
-      <Grid container className="containerProjects">
-        <Grid item className="cardDisplay">
+        <Grid item   className="cardDisplay">
           {projects.map((project) => {
             return (
               <Tilt className="tiltStyles">
@@ -96,6 +96,5 @@ export default function Portfolio() {
           })}
         </Grid>
       </Grid>
-    </div>
   );
 }
