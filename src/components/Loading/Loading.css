@@ -8,27 +8,10 @@
     background-color: #000000
 }
 
-.img-loading{
-    /* display: flex; */
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-}
+
 
 .gif{
     max-width: 100%;
     max-height: 100%;
 }
 
-.flowers{
-    max-width: 100%;
-    max-height: 100%;
-}
-
-
-
-.title{
-    font-family: 'Roboto', cursive;
-    /* font-weight: 500; */
-    color: #7d786f;
-}
