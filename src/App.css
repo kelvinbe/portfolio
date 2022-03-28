@@ -57,4 +57,17 @@ a:-webkit-any-link {
   background-color: #000000 !important;
 }
 
+.css-k008qs {
+  display: flex;
+  justify-content: center;
+}
+
+.css-heg063-MuiTabs-flexContainer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+}
+
 
