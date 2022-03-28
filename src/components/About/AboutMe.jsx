@@ -62,7 +62,7 @@ export default function AboutMe() {
       <Grid>
       <p className="titleAbout">
       Hello my name is Kelvin. 
-      I feel in love with computers playing games as a kid. 
+      I fell in love with computers playing games as a kid. 
       Fast forward to university i found web development and decided to give it a shot.
       I have had the opportunity to learn and grow as a developer. Today the journey continues.</p>
     </Grid>
