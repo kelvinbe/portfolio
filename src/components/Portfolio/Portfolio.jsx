@@ -56,13 +56,6 @@ export default function Portfolio() {
   ];
 
 
-  const redirectToGit = (project) => {
-    return <a link={project.proj.gitLink}>
-
-    </a>
-  }
-
-
   return (
      
 
