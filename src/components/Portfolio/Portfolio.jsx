@@ -10,38 +10,58 @@ import IosShareOutlinedIcon from "@mui/icons-material/IosShareOutlined";
 import "./Portfolio.css";
 import Tilt from "react-vanilla-tilt";
 import GitHubIcon from "@mui/icons-material/GitHub";
+import IconButton from '@mui/material/IconButton';
+
 
 export default function Portfolio() {
+
+  
   const projects = [
     {
       proj: {
         name: "Modified Twitter Web App",
-        stack: `React JS ${"  "} Firebase ${" "} MaterialUI HTML5 ${" "} CSS3 ${" "} Javascript`,
+        details: 'A dummy playful re-imagining of twitter with some small new features: Note - Not mobile responsive',
         link: "https://twitter-api-d8f20.web.app/",
+        stack: ['React', 'Javascript', 'Firebase', 'Material UI'],
+        gitLink: 'https://github.com/kelvinbe/twitter'
       },
     },
     {
       proj: {
-        name: "Portfolio Site",
-        stack: "React JS Firebase HTML5 CSS3",
-        link: "",
+        name: "Victor's wedding webapp",
+        details: "A simple web app to help client victor raise funds for his upcoming wedding by showcasing their journey.",
+        link: "https://vicshawed.web.app/",
+        stack: ['React', 'Javascript', 'Firebase', 'Material UI'],
+        gitLink: 'https://github.com/kelvinbe/vicswedding'
       },
     },
     {
       proj: {
         name: "New Proj",
-        stack: "React JS Firebase HTML5 CSS3",
+        details: "A dummy playful re-imagining of twitter with some small new features: Note - Not mobile responsive",
         link: "",
+        stack: ['React', 'Javascript', 'Firebase', 'Material UI'],
+        gitLink: ''
       },
     },
     {
       proj: {
         name: "New Proj",
-        stack: "React JS Firebase HTML5 CSS3",
+        details: "A dummy playful re-imagining of twitter with some small new features: Note - Not mobile responsive",
         link: "",
+        stack: ['React', 'Javascript', 'Firebase', 'Material UI'],
+        gitLink: ''
       },
     }
   ];
+
+
+  const redirectToGit = (project) => {
+    return <a link={project.proj.gitLink}>
+
+    </a>
+  }
+
 
   return (
      
@@ -59,7 +79,9 @@ export default function Portfolio() {
                   <CardContent className="cardIcons">
                     <FolderOutlinedIcon className="iconColor" />
                     <div>
-                      <GitHubIcon className="iconColor" />
+            {/* <IconButton href={project.proj.gitLink} target="_blank"> */}
+            <GitHubIcon className="iconColor" />
+              {/* </IconButton>      */}
 
                       <IosShareOutlinedIcon className="iconColor" />
                     </div>
@@ -69,15 +91,13 @@ export default function Portfolio() {
                       {project.proj.name}
                     </Typography>
                     <Typography variant="body2">
-                      well meaning and kindly.
-                      <br />
-                      {'"a benevolent smile"'}
+                      {project.proj.details}
                     </Typography>
                     <Typography variant="body2">
                       <ul className="stackDisplay">
-                        <li>React</li>
-                        <li>Javascript</li>
-                        <li>Python</li>
+                      {project.proj.stack.map((i) => {
+                       return <li>{i}</li>
+                      })}
                       </ul>
                     </Typography>
                   </CardContent>
@@ -87,7 +107,7 @@ export default function Portfolio() {
                       href={project.proj.link}
                       target="_blank"
                     >
-                      Learn More
+                      Visit
                     </Button>
                   </CardActions>
                 </Card>
