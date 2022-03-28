@@ -85,6 +85,18 @@ export default function AboutMe() {
       </TabPanel>
     </Box>
     </Grid>
+    <Grid>
+      <p className="titleAbout" style={{paddingTop: 25}}>
+        Get in touch
+      </p>
+      <Grid>
+      <p className='titleAbout'>
+        Contact me via kelvin.beno.k@gmail.com
+      </p>
+    </Grid>
+
+    </Grid>
+    
     </Grid>
   )
 }
