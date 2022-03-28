@@ -60,7 +60,11 @@ export default function AboutMe() {
         <p className="titleAbout">About Me</p>
     </Grid>
       <Grid>
-      <p className="titleAbout">I am a software developer. Love building and learning new things</p>
+      <p className="titleAbout">
+      Hello my name is Kelvin. 
+      I feel in love with computers playing games as a kid. 
+      Fast forward to university i found web development and decided to give it a shot.
+      I have had the opportunity to learn and grow as a developer. Today the journey continues.</p>
     </Grid>
        <Box sx={{ width: '100%' }}>
       <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
