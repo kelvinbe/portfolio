@@ -19,38 +19,38 @@ export default function Portfolio() {
   const projects = [
     {
       proj: {
-        name: "Modified Twitter Web App",
-        details: 'A dummy playful re-imagining of twitter with some small new features: Note - Not mobile responsive',
-        link: "https://twitter-api-d8f20.web.app/",
-        stack: ['React', 'Javascript', 'Firebase', 'Material UI'],
-        gitLink: 'https://github.com/kelvinbe/twitter'
+        name: "Gamingzoneke",
+        details: 'A web app gives you the latest information on up and coming games as well as their platforms',
+        link: "https://gamezoneke.netlify.app/",
+        stack: ['React', 'Javascript', 'Netlify', 'Material UI', 'Recharts'],
+        gitLink: 'https://github.com/kelvinbe/GamingZone'
       },
     },
     {
       proj: {
         name: "Victor's wedding webapp",
         details: "A simple web app to help client victor raise funds for his upcoming wedding by showcasing their journey.",
-        link: "https://vicshawed.web.app/",
+        link: "https://vicweds.web.app/",
         stack: ['React', 'Javascript', 'Firebase', 'Material UI'],
         gitLink: 'https://github.com/kelvinbe/vicswedding'
       },
     },
     {
       proj: {
-        name: "New Proj",
-        details: "A dummy playful re-imagining of twitter with some small new features: Note - Not mobile responsive",
-        link: "",
-        stack: ['React', 'Javascript', 'Firebase', 'Material UI'],
-        gitLink: ''
+        name: "Jipange",
+        details: "A react native mobile app that helps users in managing their time for maximum productivity. Taking from the famous pomodoro technique",
+        link: "https://play.google.com/store/apps/details?id=my.jipange.app",
+        stack: ['React Native', 'Javascript', 'Expo'],
+        gitLink: 'https://github.com/kelvinbe/react-native-pomodoro'
       },
     },
     {
       proj: {
-        name: "New Proj",
-        details: "A dummy playful re-imagining of twitter with some small new features: Note - Not mobile responsive",
-        link: "",
-        stack: ['React', 'Javascript', 'Firebase', 'Material UI'],
-        gitLink: ''
+        name: "Portfolio Site",
+        details: "A personal portfolio site showcasing projects i have worked on and also information on my journey so far",
+        link: "https://kbeno.com",
+        stack: ['React', 'Javascript', 'netlify', 'Material UI', 'CSS3'],
+        gitLink: 'https://github.com/kelvinbe/portfolio'
       },
     }
   ];
@@ -96,6 +96,7 @@ export default function Portfolio() {
                   </CardContent>
                   <CardActions>
                     <Button
+                    style={{color: 'blue'}}
                       size="small"
                       href={project.proj.link}
                       target="_blank"

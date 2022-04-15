@@ -17,7 +17,7 @@ export function Skills(props) {
           React JS - <span className={styles.innerText}>Buliding Beautiful Scalable User Interface using React Framework </span>
         </p>
         <p className={styles.descriptionOnTabs}>
-          Django - <span className={styles.innerText}>Buliding Scalable API using Django and Python</span>
+          React Native - <span className={styles.innerText}>Buliding Mobile Applications using React Native and Expo</span>
         </p>
         <p className={styles.descriptionOnTabs}>
           HTML5 - <span className={styles.innerText}>Building Skeleton for web apps</span>
@@ -44,6 +44,9 @@ export function Experience(props) {
         </p>
         <p className={styles.descriptionOnTabs}>
           Software Developer Internship at The Silver Logic - <span className={styles.innerText}>2020 - 2021</span>
+        </p>
+        <p className={styles.descriptionOnTabs}>
+          Freelance Developer Woked on wedding app for client - <span className={styles.innerText}>2021 - 2022</span>
         </p>
             
         </div>
