@@ -20,16 +20,16 @@ export default function Portfolio() {
     {
       proj: {
         name: "Gamingzoneke",
-        details: 'A web app gives you the latest information on up and coming games as well as their platforms',
+        details: 'A web app gives you the latest information on up and coming games as well as their platforms such as playstaion and xbox',
         link: "https://gamezoneke.netlify.app/",
-        stack: ['React', 'Javascript', 'Netlify', 'Material UI', 'Recharts'],
+        stack: ['React', 'Javascript', 'Netlify', 'Material UI', 'rawg api'],
         gitLink: 'https://github.com/kelvinbe/GamingZone'
       },
     },
     {
       proj: {
         name: "Victor's wedding webapp",
-        details: "A simple web app to help client victor raise funds for his upcoming wedding by showcasing their journey.",
+        details: "A simple web app to help client victor raise funds for his upcoming wedding by showcasing their journey together preparing for marriage.",
         link: "https://vicweds.web.app/",
         stack: ['React', 'Javascript', 'Firebase', 'Material UI'],
         gitLink: 'https://github.com/kelvinbe/vicswedding'
@@ -38,7 +38,7 @@ export default function Portfolio() {
     {
       proj: {
         name: "Jipange",
-        details: "A react native mobile app that helps users in managing their time for maximum productivity. Taking from the famous pomodoro technique",
+        details: "A react native mobile app that helps users in managing their time for maximum productivity. Taking from the famous pomodoro technique used by many working",
         link: "https://play.google.com/store/apps/details?id=my.jipange.app",
         stack: ['React Native', 'Javascript', 'Expo'],
         gitLink: 'https://github.com/kelvinbe/react-native-pomodoro'
@@ -47,7 +47,7 @@ export default function Portfolio() {
     {
       proj: {
         name: "Portfolio Site",
-        details: "A personal portfolio site showcasing projects i have worked on and also information on my journey so far",
+        details: "A personal portfolio site showcasing personal projects i have worked on and also information on my journey from schooling to work experience",
         link: "https://kbeno.com",
         stack: ['React', 'Javascript', 'netlify', 'Material UI', 'CSS3'],
         gitLink: 'https://github.com/kelvinbe/portfolio'
